@@ -1,0 +1,25 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  animation: changeColor 6s, move 2s alternate;
+}
+
+@keyframes move {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 200px;
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #ff00ee;
+  }
+
+  100% {
+    background-color: #00ffbb;
+  }
+}
